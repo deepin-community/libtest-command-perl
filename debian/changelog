@@ -1,0 +1,88 @@
+libtest-command-perl (0.11-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:26:41 +0100
+
+libtest-command-perl (0.11-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Add explicit build dependency on libmodule-build-perl.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 06 Jun 2015 17:43:03 +0200
+
+libtest-command-perl (0.11-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: Changed: (build-)depend on perl instead of perl-
+    modules.
+  * Remove alternative (build) dependencies that are already satisfied
+    in oldstable.
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.11.
+  * Bump Standards-Version to 3.9.4 (update to copyright-format 1.0, directly
+    link GPL-1+).
+  * Bump dh compatibility to level 8 (no changes necessary).
+  * Switch to short-form debian/rules.
+  * Switch to source format 3.0 (quilt).
+  * Add myself to uploaders and copyright.
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 11 Aug 2013 22:50:30 +0200
+
+libtest-command-perl (0.08-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: added myself to Uploaders
+  * debian/watch: remove comment
+  * debian/copyright: update copyright for debian/*
+
+ -- Brian Cassidy <brian.cassidy@gmail.com>  Thu, 14 May 2009 09:30:49 -0300
+
+libtest-command-perl (0.04-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * Add myself to Uploaders.
+  * Refresh debian/rules for debhelper 7.
+  * Add perl-modules (>= 5.10) as an alternative build-dep to
+    libmodule-build-perl.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Mon, 11 May 2009 20:19:16 +0200
+
+libtest-command-perl (0.02-1) unstable; urgency=low
+
+  [ Ernesto Hernández-Novich (USB) ]
+  * Initial Release (Closes: #460100).
+
+ -- Damyan Ivanov <dmn@debian.org>  Tue, 15 Jan 2008 21:24:17 +0200

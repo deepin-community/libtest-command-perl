@@ -1,0 +1,6 @@
+---
+Archive: CPAN
+Bug-Database: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Test-Command
+Contact: Daniel B. Boorstein <danboo@cpan.org>
+Name: Test-Command
+Repository: https://github.com/danboo/perl-test-command
